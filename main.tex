@@ -1,0 +1,73 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsthm}
+\usepackage{newpxtext,newpxmath} %for font style
+
+\newtheorem{theorem}{\textcolor{blue}{Theorem}}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{\textcolor{blue}{Proposition}}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{\textcolor{purple}{Example}}[section]
+%\theoremstyle{definition}
+
+
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+\newtcbtheorem{example}{Problem}{
+    theorem style=plain,
+    arc=2mm,
+    boxrule=.2mm,
+    coltitle=black,
+    colframe=blue!50!black,
+    colback=blue!5!white,
+    fonttitle=\sffamily\bfseries,
+    coltitle=blue!50!black,
+    before lower={\textcolor{blue!50!black}{\textsf{\textbf{Proof:}}}\ },
+}{}
+
+
+
+
+
+
+\title{TCS Toolkit}
+\author{Hector Jimenez}
+
+\begin{document}
+\maketitle
+
+\input{chapter1/topic1}
+
+
+%\input{chapter5}
+%\input{chapter6}
+
+
+
+
+%\begin{abstract}
+%Your abstract.
+%\end{abstract}
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,106 @@
+\section{Asymptotics and Probability}
+
+
+\subsection{Big $\mathcal{O}$ and friends}
+
+Recall that $f(x) = \mathcal{O}(g(x)) ~(as~x\rightarrow\infty) \iff \exists c,x_0~s.t.~ |f(x)| \leq c\cdot g(x), ~\forall x \geq x_0.$ \textbf{Example:} $\sum_{i=1}^{n} i = \frac{n(n+1)}{2} = \frac{n^2}{2} + \frac{n}{2} = \mathcal{O}(n^2) = \frac{n^2}{2} + \mathcal{O}(n) $.
+
+
+\begin{definition}[Harmonic Number]
+    Let $n \in \mathbf{N}$, then we define $H_n=1+1/2 +1/3+1/4 + ...+1/n.$
+\end{definition}
+
+We can get an \textbf{upper bound} and a \textbf{lower bound} for harmonic number in the following way:
+\begin{align*}
+    H_n=1+1/2 +1/3+1/4 + ...+1/n \leq \\    
+    1 + 1/2 + 1/2 + 1/4 + 1/4 + 1/4 + 1/4 + 1/8 + ... \leq\\
+    \lfloor \log_2 n \rfloor + 1.
+\end{align*}
+
+\begin{align*}
+    H_n=1+1/2 +1/3+1/4 + ...+1/n \geq \\    
+    1 + 1/2 + 1/4 + 1/4 + 1/8 + 1/8 + 1/8 + 1/8 + 1/16 ... \geq\\
+    1/2 \lceil \log_2 n \rceil + 1.
+\end{align*}
+
+Since that $H_n \leq \mathcal{O}(\log n)$ and $H_n \geq \Omega(\log n)$, we can conclude that $H_n = \Theta(\log n).$
+
+\begin{definition}[$f(x) \sim g(x)$]
+    We say that $f(x) \sim g(x)$ as $x \rightarrow \infty$ if $\frac{f(x)}{g(x)} \rightarrow 1$.
+\end{definition}
+
+We recall the definition of a Taylor Series:
+
+\begin{theorem}[Taylor Series]
+If $f(x)$ is analytic at $x=a$, then it can be represented by its Taylor series:
+\[
+f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n,
+\]
+which converges to $f(x)$ for all $x$ within the radius of convergence.
+\end{theorem}
+
+\begin{definition}[$e^x$]
+    We define the function $e^x= \sum_{i=0}^{\infty} \frac{x^{n}}{n!},~ \forall x \in \mathbf{R}$.
+\end{definition}
+
+For example, the function $\ln{1+x} = \sum_{n=0}^{\infty} (-1)^{n-1} \frac{x^n}{n!}$, for $|x|\leq 1$. Additionally, we can use this equivalence to approximate $\ln{1+x}= \sum_{n=0}^{\infty} (-1)^{n-1} \frac{x^n}{n!} \sim x$ when $x \rightarrow 0^+$. We can also exponent this and get: $\exp{x} \sim 1+x$.
+
+
+
+\begin{definition}[Central Binomial Coefficient]
+    We define the central binomial coefficient as $C_n:= \binom{n}{n/2}$. We notice that the probability of getting half of $n$ flipped coins is $\frac{C_n}{2^n}$.
+\end{definition}
+
+\begin{proposition}
+    $C_n= \Theta(\frac{2^n}{\sqrt{n}}).$
+\end{proposition}
+\begin{proof}
+We can bound above and below the expression. Lets do a simple example to see this. $C_{10} = \frac{10\cdot 9\cdot 8\cdot\cdot\cdot2\cdot1}{5\cdot4\cdot\cdot\cdot1\cdot5\cdot4\cdot\cdot\cdot1}$. Then we divide by $2^n$ and get: $C_{10}/2^n = \frac{10\cdot 9\cdot 8\cdot\cdot\cdot2\cdot1}{10\cdot8\cdot\cdot\cdot2\cdot10\cdot8\cdot\cdot\cdot2}.$ Furthermore we can potentiate to $()^2$ and get: $(\frac{C_n}{2^n})^2 = \frac{10\cdot10\cdot 9\cdot9\cdot8\cdot8\cdot\cdot\cdot2\cdot2\cdot1}{10\cdot10\cdot10\cdot10\cdot8\cdot8\cdot8\cdot8\cdot\cdot\cdot2\cdot2\cdot2\cdot2}= \frac{ 9\cdot9\cdot7\cdot7\cdot5\cdot5\cdot3\cdot3}{10\cdot10\cdot8\cdot8\cdot6\cdot6\cdot4\cdot4\cdot2\cdot2}$. From this we can get an upper bound: $(\frac{C_n}{2^n})^2 \leq \frac{10\cdot9 \cdot 8\cdot7\cdot 6 \cdot 5\cdot4 \cdot3 \cdot2 \cdot 1 }{11\cdot10\cdot 9 \cdot 8 \cdot 7\cdot6 \cdot 5\cdot4 \cdot 3 \cdot2  } = \frac{1}{11} = \frac{1}{n+1}$. Also we can get a lower bound:  $(\frac{C_n}{2^n})^2 \geq \frac{ 9\cdot 8 \cdot7\cdot6\cdot5\cdot4\cdot3\cdot2 }{ 10 \cdot 9\cdot 8\cdot7\cdot6\cdot5\cdot4\cdot3\cdot2\cdot1 } = \frac{1}{10} = \frac{1}{n}$.  
+\end{proof}
+
+
+
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Sum of Random Variables, Gaussian and Central Limit Theorem}
+
+We work with the following setup: let $X_1,X_2,...,X_n$ be i.i.d random variables with $\mathbf{P}[X_i = 1]=p$ and $\mathbf{P}[X_i = 0]= 1-p=q$. Let $S_n = X_1+X_2+...+X_n$, then $\mathbf{E}(S_n) = \mathbf{E}(X_1) + ...+\mathbf{E}(X_n) = pn.$
+
+
+\newpage
+
+\section{Computational Models}
+
+\subsection{Circuits}
+
+\begin{definition}[Circuit]
+A circuit is a Directed Acyclic Graphs (DAGs) that computes Boolean Functions $f:\{0,1\}^n \rightarrow\{0,1\}$. The nodes of a circuit are called gates. A circuit can be seen as a tree, where the leafs are input gates that recieves an input $x=(x_1,x_2,...,x_n)$ and the root generates an output bit.     
+\end{definition}
+
+\begin{definition}[Size and Depth of Circuit]
+The \textit{Size} and \textit{Depth} of a circuit $C$ are defined as the number of non-input gates and the longest input-output path, respectively.
+\end{definition}
+
+\begin{example}
+    Some common basis are the following: $\mathcal{B}_1=\{ \neg, \text{binary } \lor, \text{binary } \land \}, \mathcal{B}_2=\{\text{all } g:\{0,1\}^2 \rightarrow \{0,1\}\}, \mathcal{B}_3=\{\neg, \text{all fan-in } \lor, \text{all fan-in }\land\}$. Notice that $\mathcal{B}_3$ allow for constant depth computations. For example, we can add two n-bits numbers in constant depth. Instead for $B_1$, we need at least a depth of $\log n$ to look all bits.
+\end{example}
+\begin{example}
+    We study the function \textbf{AND}$:\{0,1\}^n\rightarrow \{0,1\}$. Notice that with $\mathcal{B}_3$ we can generate a circuit with size 1. Instead with $\mathcal{B}_2$ we can generate a circuit with size $\mathcal{O}(n)$ and depth $\mathcal{O}(\log n)$. 
+\end{example}
+\begin{example}
+    We study the \textbf{Palindrome} function $p:\{0,1\}^{2n}\rightarrow \{0,1\}$. With $\mathcal{B}_3$ we can generate a circuit with depth 2, by generating an "equal" gate. 
+\end{example}
+
+\begin{definition}[Basis]
+We call $\mathcal{B}(C)$ the basis of a circuit $C$, which is a set of allowed operations in gates of a circuit $C$.
+\end{definition}
+
+We have talk about constant size inputs of size $n$, this mean that for each input size we need to generate a different circuit. In order to accept a certain language $L$, we define a \textbf{circuit family} $(C_n)^{\infty}_{n=1}$, where the circuit $C_n$ should accepts all words in $L \cap \{0,1\}^n$. Now, we define some families of languages that are categorized by the size of circuit families (with $\mathcal{B}_3$) that accept them.
+
+\begin{definition}[Family $AC^0$]
+    The collection of languages decided by a circuit family of depth $\mathcal{O}(1)$ and size $poly(n)$. %For example $Palindrome$.
+\end{definition}
+
+\begin{definition}[Family $NC$]
+    The collection of languages decided by a circuit family of depth $polylog(n)$ and size $poly(n)$.
+\end{definition}
