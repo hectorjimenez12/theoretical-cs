@@ -68,39 +68,3 @@ We work with the following setup: let $X_1,X_2,...,X_n$ be i.i.d random variable
 
 
 \newpage
-
-\section{Computational Models}
-
-\subsection{Circuits}
-
-\begin{definition}[Circuit]
-A circuit is a Directed Acyclic Graphs (DAGs) that computes Boolean Functions $f:\{0,1\}^n \rightarrow\{0,1\}$. The nodes of a circuit are called gates. A circuit can be seen as a tree, where the leafs are input gates that recieves an input $x=(x_1,x_2,...,x_n)$ and the root generates an output bit.     
-\end{definition}
-
-\begin{definition}[Size and Depth of Circuit]
-The \textit{Size} and \textit{Depth} of a circuit $C$ are defined as the number of non-input gates and the longest input-output path, respectively.
-\end{definition}
-
-\begin{example}
-    Some common basis are the following: $\mathcal{B}_1=\{ \neg, \text{binary } \lor, \text{binary } \land \}, \mathcal{B}_2=\{\text{all } g:\{0,1\}^2 \rightarrow \{0,1\}\}, \mathcal{B}_3=\{\neg, \text{all fan-in } \lor, \text{all fan-in }\land\}$. Notice that $\mathcal{B}_3$ allow for constant depth computations. For example, we can add two n-bits numbers in constant depth. Instead for $B_1$, we need at least a depth of $\log n$ to look all bits.
-\end{example}
-\begin{example}
-    We study the function \textbf{AND}$:\{0,1\}^n\rightarrow \{0,1\}$. Notice that with $\mathcal{B}_3$ we can generate a circuit with size 1. Instead with $\mathcal{B}_2$ we can generate a circuit with size $\mathcal{O}(n)$ and depth $\mathcal{O}(\log n)$. 
-\end{example}
-\begin{example}
-    We study the \textbf{Palindrome} function $p:\{0,1\}^{2n}\rightarrow \{0,1\}$. With $\mathcal{B}_3$ we can generate a circuit with depth 2, by generating an "equal" gate. 
-\end{example}
-
-\begin{definition}[Basis]
-We call $\mathcal{B}(C)$ the basis of a circuit $C$, which is a set of allowed operations in gates of a circuit $C$.
-\end{definition}
-
-We have talk about constant size inputs of size $n$, this mean that for each input size we need to generate a different circuit. In order to accept a certain language $L$, we define a \textbf{circuit family} $(C_n)^{\infty}_{n=1}$, where the circuit $C_n$ should accepts all words in $L \cap \{0,1\}^n$. Now, we define some families of languages that are categorized by the size of circuit families (with $\mathcal{B}_3$) that accept them.
-
-\begin{definition}[Family $AC^0$]
-    The collection of languages decided by a circuit family of depth $\mathcal{O}(1)$ and size $poly(n)$. %For example $Palindrome$.
-\end{definition}
-
-\begin{definition}[Family $NC$]
-    The collection of languages decided by a circuit family of depth $polylog(n)$ and size $poly(n)$.
-\end{definition}

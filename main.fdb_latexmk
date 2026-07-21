@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784595483.32415 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784595485.06259 2
+["pdflatex"] 1784600171.70504 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784600172.6326 2
   "C:/Users/hjimenez/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783789762 157476 836f50a025a0ef37f9a015bb4bf92ccc ""
   "C:/Users/hjimenez/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1783789621 13368520 72e4a04fb105dd63c6998ed9a0c5b7db ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc" 1762693727 3877 2ca811886181a05a861d20a35de75e06 ""
@@ -195,14 +195,18 @@
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/hjimenez/github/theoretical-cs/main.tex" 1784595435 1423 3136c00713d3525bfe21c033147c5bb5 ""
-  "chapter1/topic1.tex" 1784595435 6340 d4ee4c51eed59f4e3da630dcaf1301a9 ""
-  "main.aux" 1784595484 940 c572d76b7495bc1880d0da912677b6c5 "pdflatex"
-  "main.out" 1784595484 954 9493009efce873862f07e1f3a7f62729 "pdflatex"
-  "main.tex" 1784595435 1423 3136c00713d3525bfe21c033147c5bb5 ""
+  "c:/Users/hjimenez/github/theoretical-cs/main.tex" 1784599494 1457 4fb8c2394b058e0aad80ee91f9869dae ""
+  "chapter1.tex" 0 -1 0 ""
+  "chapter1/.tex" 0 -1 0 ""
+  "chapter1/topic1." 0 -1 0 ""
+  "chapter1/topic1.tex" 1784598713 3805 d9aeb8430f3ab9ffe68d1b6895785e10 ""
+  "chapter2/circuits.tex" 1784600170 3002 4fbba0c937227ce4d05a007a582b6a3e ""
+  "chapter2/lecture2.tex" 0 -1 0 ""
+  "main.aux" 1784599500 813 b95a27e0e98b62da509f8c1c4a83c14a "pdflatex"
+  "main.out" 1784599500 794 4cf44f29b7cb9e07f2b527a2f6ea240a ""
+  "main.tex" 1784599494 1457 4fb8c2394b058e0aad80ee91f9869dae ""
   (generated)
   "main.aux"
   "main.log"
-  "main.out"
   "main.pdf"
   (rewritten before read)
