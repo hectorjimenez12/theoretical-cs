@@ -1,0 +1,19 @@
+\section{Communication Complexity}
+
+We study the case of 2-party communication between Alice and Bob. The idea is that A and B want to
+compute the function $f:X \times Y \rightarrow Z$. The goal is given $x \in X$ (Alice) and $y \in Y$ (Bob)
+that both Alice and Bob computes $f(x,y)$. We only care about how many communication steps Alice and Bob
+perform. We consider that each time Alice and Bob communicate to each other a cost of 1-bit.
+
+\begin{example}[EQUALITY]
+    Alice and Bob have both words from $\{0,1\}^n$ and they try to know if these are equal. So the equality
+    can be represented by $EQ:\{0,1\}^n \times \{0,1\}^n \rightarrow \{0,1\}$.
+\end{example}
+
+\begin{proposition}
+    $n+1$ bits are sufficient and necesary to solve $EQ$.
+\end{proposition}
+\begin{proof}
+    There is an easy to detec wheter $X = Y$, Alice can send the $n$ bits from her word to Bob,
+    then Bob knows the answer and he send it to Alice.
+\end{proof}

@@ -1,0 +1,43 @@
+\section{Boolean Functions}
+A boolean function is perhaps the most simplest function in computer science.
+
+\begin{definition}[Boolean Function]
+A function $f:\{0,1\}^n righarrow \{0,1\}$ is called a boolean function.
+\end{definition}
+
+There are different ways to measure the complexity of a boolean function. 
+Here we present four: \textbf{decision tree complexity, sensitivity, certificate complexity and degree}.
+
+\begin{definition}[Decision Tree complexity]
+The \textit{decision tree complexity} $d(f)$ of a boolean function is the depth of the smallest tree that computes a boolean function.
+\end{definition}
+
+\begin{definition}[Sensitivity]
+    The hypercube is a graph that connects inputs of a boolean function $f$ which differ by 1 bit. 
+    The nodes (inputs) in the hypercube are colored with the output of the boolean function.
+    The \textit{sensitivity complexity} $s(f)$ is defined as the maximum number of neighbours with different color in the hypercube.
+\end{definition}
+
+\begin{definition}[Certificate Complexity]
+A certificate is a set of coordinates in the input that once we fixed those coordinates, the value of the function
+is determined. The \textit{certificate complexity} $c(f)$ is the smallest number such that every input $x$ has a certificate
+of size $c(f)$.  
+\end{definition}
+
+\begin{definition}[Degree Complexity]
+Any function $f:\{0,1\}^n righarrow \mathbb{R}$ can be expressed as a multilinear polynomial. The degree complexity 
+$deg(f)$ of a boolean function is the degree of this polynomial.
+\end{definition}
+
+We can stablish bound between these complexity mesasures:
+
+\begin{proposition}
+    The following bounds hold:
+    \begin{itemize}
+        \item $s(f) \leq c(f)$
+        \item $c(f) \leq d(f)$
+        \item $deg(f) \leq d(f)$
+        \item $d(f) \leq c(f)^2$
+    \end{itemize}
+\end{proposition}
+

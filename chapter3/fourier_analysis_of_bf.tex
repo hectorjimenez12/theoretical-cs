@@ -1,0 +1,9 @@
+\section{Fourier Analysis of Boolean Functions}
+
+\begin{theorem}
+    Any function $f:\{+1,-1\}^{n} \rightarrow \mathbb{R}$ is uniquely expressible as a multilinear polynomial.
+\end{theorem}
+
+We represent function as $f(x) = f(x_1,...,x_n)= \sum_{S \subseteq [n]} \hat{f}(S) \prod_{i \in S} x_i.$
+In this way we can see that the fourier expansion is a linear combinations "XOR"s functions. This is 
+because $\prod_{i \in S} x_i$ is the parity or XOR of bits in $S$.
