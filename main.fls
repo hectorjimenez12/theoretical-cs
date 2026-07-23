@@ -271,9 +271,6 @@ INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trims
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcbtheorems.code.tex
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zpl-Regular-tlf-t1.tfm
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
 OUTPUT main.aux
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\newpx\omlnpxmi.fd
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\newpx\omlnpxmi.fd
@@ -296,14 +293,8 @@ INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopd
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zpl-Regular-tlf-t1.tfm
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zpl-Regular-tlf-t1.tfm
 INPUT .\chapter0\preliminaries.tex

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.11)  23 JUL 2026 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.11)  23 JUL 2026 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,12 +708,12 @@ The existing definition of 'example' will not be altered.
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 50.
-(main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 50.
- (C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex/latex/newpx\omlnpxmi.fd
+(C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
 LaTeX Font Info:    ... okay on input line 50.
@@ -808,7 +808,6 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 LaTeX Info: Command `\dddot' is already robust on input line 50.
 LaTeX Info: Command `\ddddot' is already robust on input line 50.
 Package hyperref Info: Link coloring ON on input line 50.
- (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -891,21 +890,28 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
 LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4C38BF6A167BF82FED70033E0FBA6084;1255.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  4C38BF6A167BF82FED70033E0FBA6084;1255.
  ) 
 Here is how much of TeX's memory you used:
- 27768 strings out of 467510
- 523467 string characters out of 5407336
- 917389 words of memory out of 5000000
- 56470 multiletter control sequences out of 15000+600000
+ 27754 strings out of 467510
+ 523194 string characters out of 5407336
+ 917327 words of memory out of 5000000
+ 56460 multiletter control sequences out of 15000+600000
  690615 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,8n,108p,1235b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/NewPXMI.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxmiaX.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/zplbi.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/type1/public/newpx/zplri.pfb>
-Output written on main.pdf (6 pages, 215185 bytes).
+Output written on main.pdf (6 pages, 214287 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

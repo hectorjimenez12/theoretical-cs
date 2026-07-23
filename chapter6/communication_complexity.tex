@@ -24,3 +24,20 @@ perform. We consider that each time Alice and Bob communicate to each other a co
     The communication complexity of PARITY $cc(PARITY)$ holds: $cc(PARITY) \leq 2$.
 \end{proposition}
 
+There are cases when there is a one-way communication and other cases when there is a need to turn
+the communication. The following is a \textbf{key example in communication complexity}:
+
+\begin{example}[DISJOINTNESS]
+    Let $x,y \subseteq [n]$ the DISJOINTNESS function $DISJ:x \times y \rightarrow \{0,1\}$, 
+    defined by $DISJ(x,y) = 1 \iff x \cap y = \emptyset$. 
+    In CS term, we can think that $f(x,y)= \neg \lor(x_1 \land y_1,...,x_n \land y_n)$
+\end{example}
+
+
+\begin{proposition}[DISJOINTNESS complexity]
+    For a deterministic and randomized communication $DISJ$ has the following complexity:
+    $n+1$ and $\Omega(n)$.
+\end{proposition}
+
+
+

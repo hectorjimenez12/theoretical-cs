@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784814734.46105 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784814736.80812 2
+["pdflatex"] 1784825126.20647 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784825128.45056 2
   "C:/Users/hjimenez/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783789762 157476 836f50a025a0ef37f9a015bb4bf92ccc ""
   "C:/Users/hjimenez/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1783789621 13368520 72e4a04fb105dd63c6998ed9a0c5b7db ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc" 1762693727 3877 2ca811886181a05a861d20a35de75e06 ""
@@ -203,9 +203,9 @@
   "chapter1/boolean_functions.tex" 1784813912 1887 ea8f4cf689667f35f7f915d1080f7cce ""
   "chapter1/fourier_analysis_of_bf.tex" 1784775305 902 9019a3ea29c7e470dd128d427a522214 ""
   "chapter2/circuits.tex" 1784600170 3002 4fbba0c937227ce4d05a007a582b6a3e ""
-  "chapter6/communication_complexity.tex" 1784814733 1268 98668564434ed937905c58fc1270a1ce ""
-  "main.aux" 1784814736 1168 b0118536f70551ad5347f7ca13bdcbab "pdflatex"
-  "main.out" 1784814736 1255 4c38bf6a167bf82fed70033e0fba6084 "pdflatex"
+  "chapter6/communication_complexity.tex" 1784825122 1942 7051bda1cb90ba8fde09f3b81f9266bf ""
+  "main.aux" 1784825128 1168 b0118536f70551ad5347f7ca13bdcbab "pdflatex"
+  "main.out" 1784825128 1255 4c38bf6a167bf82fed70033e0fba6084 "pdflatex"
   "main.tex" 1784773456 1654 8a37aef6a850cb83e07e561abf2f6b08 ""
   (generated)
   "main.aux"
