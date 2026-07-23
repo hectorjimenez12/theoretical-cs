@@ -9,7 +9,6 @@ perform. We consider that each time Alice and Bob communicate to each other a co
     Alice and Bob have both words from $\{0,1\}^n$ and they try to know if these are equal. So the equality
     can be represented by $EQ:\{0,1\}^n \times \{0,1\}^n \rightarrow \{0,1\}$.
 \end{example}
-
 \begin{proposition}
     $n+1$ bits are sufficient and necesary to solve $EQ$.
 \end{proposition}
@@ -17,3 +16,11 @@ perform. We consider that each time Alice and Bob communicate to each other a co
     There is an easy to detec wheter $X = Y$, Alice can send the $n$ bits from her word to Bob,
     then Bob knows the answer and he send it to Alice.
 \end{proof}
+
+\begin{example}[PARITY]
+    Alice and Bob have both words from $\{0,1\}^n$ and they try to compute $PARITY$ function $PARITY(x,y)= (\sum x_i + \sum y_i) \mod 2$. 
+\end{example}
+\begin{proposition}
+    The communication complexity of PARITY $cc(PARITY)$ holds: $cc(PARITY) \leq 2$.
+\end{proposition}
+
