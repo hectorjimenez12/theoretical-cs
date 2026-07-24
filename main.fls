@@ -404,10 +404,10 @@ INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\newpx\ts1zpltlf.
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\newpx\ts1zpltlf.fd
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\tex\latex\newpx\ts1zpltlf.fd
 INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newpx\zplTLF-Regular-ts1.tfm
-INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newpx\zpl_TOsF.enc
 INPUT .\chapter1\fourier_analysis_of_bf.tex
 INPUT .\chapter1\fourier_analysis_of_bf.tex
 INPUT chapter1\fourier_analysis_of_bf.tex
+INPUT C:\Users\hjimenez\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\newpx\zpl_TOsF.enc
 INPUT .\chapter2\circuits.tex
 INPUT .\chapter2\circuits.tex
 INPUT chapter2\circuits.tex

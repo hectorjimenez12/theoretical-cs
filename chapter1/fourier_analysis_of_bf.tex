@@ -14,6 +14,13 @@ Let start motivating the topic constructing a polynomial that represents a boole
 
 We represent function as $f(x) = f(x_1,...,x_n)= \sum_{S \subseteq [n]} \hat{f}(S) \prod_{i \in S} x_i.$
 In this way we can see that the fourier expansion is a linear combinations "XOR"s functions. This is 
-because $\prod_{i \in S} x_i$ is the parity or XOR of bits in $S$.
+because $\prod_{i \in S} x_i$ is the parity or XOR of bits in $S$ (considering that $x_i$ are -1 and 1s).
 
+\begin{definition}
+    Let $S \subset [n]$, we define $\mathcal{X}_S:\{0,1\} \rightarrow \{0,1\}$ as 
+    $\mathcal{X}_S(x) = \prod_{i \in S}^{}x_i = x^{S}$.
+\end{definition}
+
+Let $V$ the vector space of functions $f:\{-1,+1\} \rightarrow \mathbb{R}$. We notice that
+the dimension of this vector space is $2^n$.
 

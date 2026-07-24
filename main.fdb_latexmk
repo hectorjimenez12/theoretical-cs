@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784825126.20647 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784825128.45056 2
+["pdflatex"] 1784859046.26218 "c:/Users/hjimenez/github/theoretical-cs/main.tex" "main.pdf" "main" 1784859048.56737 2
   "C:/Users/hjimenez/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783789762 157476 836f50a025a0ef37f9a015bb4bf92ccc ""
   "C:/Users/hjimenez/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1783789621 13368520 72e4a04fb105dd63c6998ed9a0c5b7db ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.enc" 1762693727 3877 2ca811886181a05a861d20a35de75e06 ""
@@ -198,15 +198,15 @@
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/hjimenez/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/hjimenez/github/theoretical-cs/main.tex" 1784773456 1654 8a37aef6a850cb83e07e561abf2f6b08 ""
+  "c:/Users/hjimenez/github/theoretical-cs/main.tex" 1784858342 1645 3a80ddf799db0b5ebf4e83f6b92cc384 ""
   "chapter0/preliminaries.tex" 1784684052 3790 481985d01564031cff592a1568321188 ""
   "chapter1/boolean_functions.tex" 1784813912 1887 ea8f4cf689667f35f7f915d1080f7cce ""
-  "chapter1/fourier_analysis_of_bf.tex" 1784775305 902 9019a3ea29c7e470dd128d427a522214 ""
+  "chapter1/fourier_analysis_of_bf.tex" 1784859041 1260 b4a4f914736c2d1531f2138f1dcd8269 ""
   "chapter2/circuits.tex" 1784600170 3002 4fbba0c937227ce4d05a007a582b6a3e ""
   "chapter6/communication_complexity.tex" 1784825122 1942 7051bda1cb90ba8fde09f3b81f9266bf ""
-  "main.aux" 1784825128 1168 b0118536f70551ad5347f7ca13bdcbab "pdflatex"
-  "main.out" 1784825128 1255 4c38bf6a167bf82fed70033e0fba6084 "pdflatex"
-  "main.tex" 1784773456 1654 8a37aef6a850cb83e07e561abf2f6b08 ""
+  "main.aux" 1784859048 1168 d72a3903909b5430a4d570a36646d165 "pdflatex"
+  "main.out" 1784859048 1255 4c38bf6a167bf82fed70033e0fba6084 "pdflatex"
+  "main.tex" 1784858342 1645 3a80ddf799db0b5ebf4e83f6b92cc384 ""
   (generated)
   "main.aux"
   "main.log"
